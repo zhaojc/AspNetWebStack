@@ -109,3 +109,7 @@ echo **** BUILD SUCCESSFUL ***
 popd
 endlocal
 exit /B 0
+
+修改完成后再执行
+./build.cmd Build /p:BuildPortable=false
+即可构建成功
